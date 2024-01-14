@@ -11,7 +11,7 @@ const Navbar = () => {
           className="h-auto w-auto flex flex-row items-center"
         >
           <Image
-            src="/prOFphet.png"
+            src="./prOFphet.png"
             alt="logo"
             width={45}
             height={45}
