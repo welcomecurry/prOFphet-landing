@@ -1,0 +1,22 @@
+@keyframes customFloatAnimation {
+    0% {
+      transform: translateX(calc(-50% + 390px)) translateY(-80px) translate(0);
+    }
+    25% {
+      transform: translateX(calc(-50% + 390px)) translateY(-80px) translate(5px, 3px);
+    }
+    50% {
+      transform: translateX(calc(-50% + 390px)) translateY(-80px) translateY(8px);
+    }
+    75% {
+      transform: translateX(calc(-50% + 390px)) translateY(-80px) translate(-5px, 5px);
+    }
+    100% {
+      transform: translateX(calc(-50% + 390px)) translateY(-80px) translate(0);
+    }
+  }
+  
+  .animate-custom-float {
+    animation: customFloatAnimation 4s infinite linear;
+  }
+  

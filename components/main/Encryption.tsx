@@ -6,62 +6,43 @@ import { slideInFromTop } from "@/utils/motion";
 import Image from "next/image";
 
 const Encryption = () => {
+  
   return (
-    <div className="flex flex-row relative items-center justify-center min-h-screen w-full h-full">
-      <div className="absolute w-auto h-auto top-0 z-[5]">
-        <motion.div
-          variants={slideInFromTop}
-          className="text-[40px] font-medium text-center text-gray-200"
-        >
-          Performance
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-            {" "}
-            &{" "}
-          </span>
-          Security
-        </motion.div>
-      </div>
-
-      <div className="flex flex-col items-center justify-center translate-y-[-50px] absolute z-[20] w-auto h-auto">
-        <div className="flex flex-col items-center group cursor-pointer w-auto h-auto">
+    <div className="pt-24 ">
+    <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0  lg:grid-cols-2">
+        <div className="lg:pr-8 lg:pt-4">
+          <div className="lg:max-w-lg">
+            <h2 className="text-base font-semibold leading-7" style={{color: "#34f5c5"}}>Messages that sound like you</h2>
+            <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Build relationships faster</p>
+            <p className="mt-6 text-lg leading-8 text-white">
+            Never miss an opportunity to show fans you care, with memory that goes back to the day you started on OnlyFans.
+            </p>
+            <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+              {/* {features.map((feature) => (
+                <div key={feature.name} className="relative pl-9">
+                  <dt className="inline font-semibold text-gray-900">
+                    <feature.icon className="absolute left-1 top-1 h-5 w-5 text-indigo-600" aria-hidden="true" />
+                    {feature.name}
+                  </dt>{' '}
+                  <dd className="inline">{feature.description}</dd>
+                </div>
+              ))} */}
+            </dl>
+          </div>
+        </div>
+        <div style={{marginTop: "-8rem"}}>
           <Image
-            src="/LockTop.png"
-            alt="Lock top"
-            width={50}
-            height={50}
-            className="w-[50px] translate-y-5 transition-all duration-200 group-hover:translate-y-11"
-          />
-          <Image
-            src="/LockMain.png"
-            alt="Lock Main"
-            width={70}
-            height={70}
-            className=" z-10"
+            src="/info.webp"
+            alt="Product screenshot"
+            className="w-[25rem] p-4 mt-4 max-w-none mb-12 rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[42rem] md:-ml-4 lg:-ml-0"
+            width={1432}
+            height={442}
           />
         </div>
-
-        <div className="Welcome-box px-[15px] py-[4px] z-[20] brder my-[20px] border-[#7042f88b] opacity-[0.9]">
-          <h1 className="Welcome-text text-[12px]">Encryption</h1>
-        </div>
-      </div>
-      <div className="absolute z-[20] bottom-[10px] px-[5px]">
-        <div className="cursive text-[20px] font-medium text-center text-gray-300">
-          Secure your data with end-to-end encryption
-        </div>
-      </div>
-
-      <div className="w-full flex items-start justify-center absolute">
-        <video
-          loop
-          muted
-          autoPlay
-          playsInline
-          preload="false"
-          className="w-full h-auto"
-          src="/encryption.webm/"
-        />
       </div>
     </div>
+  </div>
   );
 };
 

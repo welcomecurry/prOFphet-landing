@@ -86,10 +86,6 @@ export const Skill_data = [
       src: "/instagram.svg",
     },
     {
-      name: "Facebook",
-      src: "/facebook.svg",
-    },
-    {
       name: "Instagram",
       src: "/discord.svg",
     },

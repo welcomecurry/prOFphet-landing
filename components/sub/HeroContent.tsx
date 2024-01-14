@@ -15,30 +15,30 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
+      className="flex flex-col lg:flex-row items-center justify-center px-6 mt-10 sm:mt-20 md:px-10 lg:px-20 xl:px-40 w-full z-[20]"
     >
-      <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
+      <div className="lg:w-1/2 h-full flex flex-col gap-5 justify-center m-auto text-start mt-8">
         <motion.div
           variants={slideInFromTop}
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            Fullstack Developer Portfolio
+            No agencies or chatters needed!
           </h1>
         </motion.div>
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-6 mt-6 text-4xl sm:text-5xl lg:text-8xl font-bold text-white max-w-[600px] w-auto h-auto "
         >
           <span>
-            Providing
+            OnlyFans
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
-              the best{" "}
+              AI{" "}
             </span>
-            project exprience
+            Chatbot 💸
           </span>
         </motion.div>
 
@@ -46,27 +46,26 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+          Get AI to write your messages for you and 30x your PPVs
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] "
         >
-          Learn More!
+          Try for free!
         </motion.a>
       </div>
 
       <motion.div
         variants={slideInFromRight(0.8)}
-        className="w-full h-full flex justify-center items-center"
+        className="lg:w-2/5 w-full h-full"
       >
-        <Image
-          src="/mainIconsdark.svg"
-          alt="work icons"
-          height={650}
-          width={650}
-        />
+        <div className="container mx-auto p-4 sm:p-8 rounded-xl bg-white/20 shadow-lg ring-1 ring-black/5 border-2 border-white/20 mt-8">
+          <video className="w-full h-full object-cover rounded-xl" autoPlay loop muted>
+            <source src="/heroVid.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
       </motion.div>
     </motion.div>
   );
