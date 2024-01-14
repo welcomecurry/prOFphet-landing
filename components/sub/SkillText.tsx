@@ -32,7 +32,7 @@ const SkillText = () => {
 
         More 
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-            {" "}Rewards{" "}
+            {" "}prOFphet{" "}
         </span>
       </div>
     </h2>

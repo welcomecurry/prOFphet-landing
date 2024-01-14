@@ -8,6 +8,11 @@ import Image from "next/image";
 const Encryption = () => {
   
   return (
+    <motion.div
+    initial="hidden"
+    animate="visible"
+    variants={slideInFromTop}
+  >
     <div className="pt-24 ">
     <div className="mx-auto max-w-7xl px-6 lg:px-8">
       <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0  lg:grid-cols-2">
@@ -43,6 +48,7 @@ const Encryption = () => {
       </div>
     </div>
   </div>
+  </motion.div>
   );
 };
 
