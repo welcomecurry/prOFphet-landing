@@ -38,7 +38,7 @@ const Encryption = () => {
         </div>
         <div style={{marginTop: "-8rem"}}>
           <Image
-            src="/info.webp"
+            src="./info.webp"
             alt="Product screenshot"
             className="w-[25rem] p-4 mt-4 max-w-none mb-12 rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[42rem] md:-ml-4 lg:-ml-0"
             width={1432}
