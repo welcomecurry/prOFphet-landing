@@ -39,7 +39,7 @@ const SkillText = () => {
     <div className="emoji absolute animate-custom-float left-48">💸</div>
     <div className="emoji absolute animate-custom-float left-48 top-1/2">💸</div>
     <div className="emoji absolute animate-custom-float left-48 top-40 m-4">💰</div>
-    <div className="emoji absolute animate-custom-float right-1/2 top-50">💸</div>
+    <div className="emoji absolute animate-custom-float right-1/2 top-54">💸</div>
     <div className="emoji absolute animate-custom-float right-1/2 top-32">💸</div>
     <div className="emoji absolute animate-custom-float right-1/2 top-44">💰</div>
     
