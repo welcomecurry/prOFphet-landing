@@ -61,7 +61,7 @@ const HeroContent = () => {
         className="lg:w-2/5 w-full h-full"
       >
         <div className="container mx-auto p-4 sm:p-8 rounded-xl bg-white/20 shadow-lg ring-1 ring-black/5 border-2 border-white/20 mt-8">
-          <video className="w-full h-full object-cover rounded-xl" autoPlay loop muted>
+          <video className="w-full h-full object-cover rounded-xl" autoPlay loop muted playsInline>
             <source src="./heroVid.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
