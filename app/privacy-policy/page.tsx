@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const privacyPolicy = () => {
+export default function privacyPolicy() {
   return (
     <main>
 <div className="bg-gray-900 text-white p-8 h-screen flex flex-col justify-center items-center mt-[80rem]">
@@ -108,5 +108,3 @@ export const privacyPolicy = () => {
       </main>
   )
 }
-
-export default privacyPolicy
