@@ -19,7 +19,7 @@ const Projects = () => {
         <p>See what OnlyFans creators are saying:</p>
     </div>
     <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
-        <div className="inline-block p-4 mx-auto text-left align-bottom transition-all transform bg-slate-100 sm:align-middle sm:p-8 rounded-2xl">
+        <div className="inline-block p-4 mx-auto text-left align-bottom transition-all transform bg-white/20 sm:align-middle sm:p-8 rounded-2xl">
             <div className="flex w-full mb-4">
                 <div className="overflow-hidden">
                     <img alt="testimonial" loading="lazy" width="300" height="300" decoding="async" data-nimg="1"
@@ -28,14 +28,14 @@ const Projects = () => {
                         style={{color: "transparent;"}}/>
                 </div>
                 <div className="flex-grow pl-3 flex items-center">
-                    <h6 className="text-lg font-medium leading-6 text-black">Ashley K.</h6>
+                    <h6 className="text-lg font-medium leading-6 text-white">Ashley K.</h6>
                 </div>
             </div>
             <div className="w-full">
-                <p className="text-base text-gray-500">Damn don&apos;t tell my fans! This is crazy! Love it ❤️ Saves me so much time!</p>
+                <p className="text-base text-gray-200">Damn don&apos;t tell my fans! This is crazy! Love it ❤️ Saves me so much time!</p>
             </div>
         </div>
-        <div className="inline-block p-4 mx-auto text-left align-bottom transition-all transform bg-slate-100 sm:align-middle sm:p-8 rounded-2xl">
+        <div className="inline-block p-4 mx-auto text-left align-bottom transition-all transform bg-white/20 sm:align-middle sm:p-8 rounded-2xl">
             <div className="flex w-full mb-4">
                 <div className="overflow-hidden">
                     <img alt="testimonial" loading="lazy" width="300" height="300" decoding="async" data-nimg="1"
@@ -44,14 +44,14 @@ const Projects = () => {
                         style={{color: "transparent;"}}/>
                 </div>
                 <div className="flex-grow pl-3 flex items-center">
-                    <h6 className="text-lg font-medium leading-6 text-black">Destiny S.</h6>
+                    <h6 className="text-lg font-medium leading-6 text-white">Destiny S.</h6>
                 </div>
             </div>
             <div className="w-full">
-                <p className="text-base text-gray-500">Wow! These message can get spicy. I didn&apos;t know I could get so creative ;) This is great!</p>
+                <p className="text-base text-gray-200">Wow! These message can get spicy. I didn&apos;t know I could get so creative ;) This is great!</p>
             </div>
         </div>
-        <div className="inline-block p-4 mx-auto text-left align-bottom transition-all transform bg-slate-100 sm:align-middle sm:p-8 rounded-2xl">
+        <div className="inline-block p-4 mx-auto text-left align-bottom transition-all transform bg-white/20 sm:align-middle sm:p-8 rounded-2xl">
             <div className="flex w-full mb-4">
                 <div className="overflow-hidden">
                     <img alt="testimonial" loading="lazy" width="300" height="300" decoding="async" data-nimg="1"
@@ -60,11 +60,11 @@ const Projects = () => {
                         style={{color: "transparent;"}}/>
                 </div>
                 <div className="flex-grow pl-3 flex items-center">
-                    <h6 className="text-lg font-medium leading-6 text-black">Samantha G.</h6>
+                    <h6 className="text-lg font-medium leading-6 text-white">Samantha G.</h6>
                 </div>
             </div>
             <div className="w-full">
-                <p className="text-base text-gray-500">It certainly makes chatting faster and gives ideas on what to write next. So it kinda inspires you to write responses you wouldn’t have thought about. it’s already a great helping hand🙏 </p>
+                <p className="text-base text-gray-200">It certainly makes chatting faster and gives ideas on what to write next. So it kinda inspires you to write responses you wouldn’t have thought about. it’s already a great helping hand🙏 </p>
             </div>
         </div>
     </div>
