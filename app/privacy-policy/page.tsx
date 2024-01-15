@@ -14,9 +14,9 @@ export const privacyPolicy = () => {
       <p>PrOFphet has developed and implemented this Privacy Policy to elucidate the collection of Non-Personal Information and Personally Identifiable Information and PrOFphet’s utilization of the information collected.</p>
 
       <h2 className="text-2xl font-bold mt-8 mb-4">Definitions</h2>
-      <p>"Non-Personal Information" is information that is not personally identifiable to You and that PrOFphet automatically collects when You access or use the service, including but not limited to IP addresses, domain servers, web browser, web browser version, referring URL, device type, device operating agreement, traffic, and usage data.</p>
+      <p>&quot;Non-Personal Information&quot; is information that is not personally identifiable to You and that PrOFphet automatically collects when You access or use the service, including but not limited to IP addresses, domain servers, web browser, web browser version, referring URL, device type, device operating agreement, traffic, and usage data.</p>
 
-      <p>"Personally Identifiable Information" is non-public information that is personally identifiable to You and obtained from You through PrOFphet. This may include information such as Your name, email address, phone number, address, payment information, and any communication with PrOFphet customer service.</p>
+      <p>&quot;Personally Identifiable Information&quot; is non-public information that is personally identifiable to You and obtained from You through PrOFphet. This may include information such as Your name, email address, phone number, address, payment information, and any communication with PrOFphet customer service.</p>
 
       <h2 className="text-2xl font-bold mt-8 mb-4">Overview and Guiding Principles</h2>
       <p>PrOFphet’s Privacy Policy adheres to the following principles:</p>
