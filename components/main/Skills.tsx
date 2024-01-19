@@ -13,7 +13,7 @@ const Skills = () => {
       <div>
         <a
           className="z-1 mt-4 indexgroup flex items-center justify-between gap-4 rounded-lg border border-current bg-white/20 px-5 py-3 text-indigo-600 transition-colors hover:bg-indigo-600 focus:outline-none focus:ring active:bg-indigo-500"
-          href="/download"
+          href="https://chromewebstore.google.com/detail/profphet-ai-chatbot-for-o/omojidakhdcgakihbljcgijdiooihnhg?hl=en"
         >
           <span className="text-white font-medium transition-colors group-hover:text-white">
             {" "}
